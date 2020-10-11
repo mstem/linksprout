@@ -1,0 +1,51 @@
+p {
+	text-align: center;
+	font-family: 'Roboto';
+	padding: 0px;
+}
+
+p:center {
+	align-content: center;
+}
+
+p:button {
+	padding: 2px;
+}
+
+h1 {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.cursive {
+	font-family: 'Sansita Swashed', serif;
+}
+
+h2 {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.myButton {
+	background-color:#e0fbfc;
+	border-radius:11px;
+	border:2px solid #293241;
+	display:inline-block;
+	cursor:pointer;
+	color:#293241;
+	font-family:Roboto, sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	width: 70%;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
