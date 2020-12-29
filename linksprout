@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+ <head>
+<!-- Analytics code goes here -->
+ <meta charset = "UTF-8">
+ <title>My LinkSprout</title>
+ <link rel = "stylesheet" type = "text/css" href = "style.css">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+ <script>
+    var sites = [
+        'http://www.yourproject1.com',
+        'https://yourproject2.com'
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
+ </head>
+ <body>
+
+
+<p class="center"><img width="10%" height="10%" src="https://www.mattstempeck.com/wp-content/uploads/2020/10/mstem-circle.png" alt="Matt Stempeck"></p>
+<p class="center"><h1 class="cursive">Your Name Here</h1><br>
+<h2>@mstem</h2></p>
+
+<p class="button"><a href="https://www.mattstempeck.com/about/" target="_blank" class="myButton">Bio</a></p>
+<p class="button"><a href="http://www.mattstempeck.com/portfolio/" target="_blank" class="myButton">Portfolio</a></p>
+<p class="button"><a href="#" onclick="randomSite();" target="_blank" class="myButton">Surprise me</a></p>
+<p class="button"><a href="https://www.mattstempeck.com/contact/" target="_blank" class="myButton">Contact</a></p>
+<p>
+    <a href="http://twitter.com/mstem/" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+    <a href="http://instagram.com/mstem/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+    <a href="https://www.linkedin.com/in/mattstempeck/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+</p> 
+
+<p class="footer"><a href="https://github.com/mstem/linksprout">Fork this project on Github</a> to make your own page.</p>
+
+</body>
+</html>

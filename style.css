@@ -8,6 +8,11 @@ p:center {
 	align-content: center;
 }
 
+p:footer {
+	align-content: center;
+	font-size: x-small;
+}
+
 p:button {
 	padding: 2px;
 }
