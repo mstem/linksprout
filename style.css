@@ -138,6 +138,12 @@ body {
   transform: scale(1.12);
 }
 
+.social-svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
 /* Footer */
 
 .footer {
