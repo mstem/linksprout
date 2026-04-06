@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <!-- Analytics code goes here -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My LinkSprout</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    var sites = [
+      'http://www.yourproject1.com',
+      'https://yourproject2.com'
+    ];
+
+    function randomSite() {
+      var i = Math.floor(Math.random() * sites.length);
+      window.open(sites[i], '_blank');
+      return false;
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+
+    <div class="profile">
+      <img class="avatar" src="https://www.mattstempeck.com/wp-content/uploads/2020/10/mstem-circle.png" alt="Matt Stempeck">
+      <h1 class="name">Your Name Here</h1>
+      <p class="handle">@mstem</p>
+    </div>
+
+    <div class="links">
+      <a href="https://www.mattstempeck.com/about/" target="_blank" class="btn">Bio</a>
+      <a href="http://www.mattstempeck.com/portfolio/" target="_blank" class="btn">Portfolio</a>
+      <a href="#" onclick="return randomSite();" class="btn">Surprise me ✦</a>
+      <a href="https://www.mattstempeck.com/contact/" target="_blank" class="btn">Contact</a>
+    </div>
+
+    <div class="social">
+      <a href="https://bsky.app/profile/mstem.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+      <a href="https://x.com/mstem" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://github.com/mstem" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="mailto:your@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://www.instagram.com/mstem/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/mattstempeck/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://wa.me/yourphonenumber" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://line.me/ti/p/yourid" target="_blank" aria-label="Line"><i class="fa-brands fa-line"></i></a>
+    </div>
+
+    <p class="footer">
+      <a href="https://github.com/mstem/linksprout">Fork this project on GitHub</a> to make your own page.
+    </p>
+
+  </div>
+</body>
+</html>
