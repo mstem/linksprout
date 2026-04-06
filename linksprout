@@ -38,8 +38,8 @@
     </div>
 
     <div class="social">
-      <a href="https://bsky.app/profile/mstem.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
-      <a href="https://mastodon.social/@mstem" target="_blank" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+      <a href="https://bsky.app/profile/yourhandle.bsky.social" target="_blank" aria-label="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+      <a href="https://mastodon.social/@yourhandle" target="_blank" aria-label="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
       <a href="https://x.com/mstem" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
       <a href="https://github.com/mstem" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
       <a href="mailto:your@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
