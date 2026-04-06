@@ -14,10 +14,9 @@
       'https://yourproject2.com'
     ];
 
-    function randomSite() {
+    function randomSite(el) {
       var i = Math.floor(Math.random() * sites.length);
-      window.open(sites[i], '_blank');
-      return false;
+      el.href = sites[i];
     }
   </script>
 </head>
@@ -33,12 +32,12 @@
     <div class="links">
       <a href="https://yoursite.com/about/" target="_blank" class="btn">Bio</a>
       <a href="https://yoursite.com/portfolio/" target="_blank" class="btn">Portfolio</a>
-      <a href="#" onclick="return randomSite();" class="btn">Surprise me ✦</a>
+      <a href="#" onclick="randomSite(this);" target="_blank" class="btn">Surprise me ✦</a>
       <a href="https://yoursite.com/contact/" target="_blank" class="btn">Contact</a>
     </div>
 
     <div class="social">
-      <a href="https://bsky.app/profile/yourhandle.bsky.social" target="_blank" aria-label="Bluesky"><svg class="social-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.818 6.511-1.784 7.327-4.597.817 2.813 2.318 10.415 7.331 4.597 4.55-5.073 1.078-6.497-2.834-7.078a7.496 7.496 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/></svg></a>
+      <a href="https://bsky.app/profile/yourhandle.bsky.social" target="_blank" aria-label="Bluesky"><svg class="social-svg" width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.818 6.511-1.784 7.327-4.597.817 2.813 2.318 10.415 7.331 4.597 4.55-5.073 1.078-6.497-2.834-7.078a7.496 7.496 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z"/></svg></a>
       <a href="https://x.com/yourhandle" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
       <a href="https://github.com/yourhandle" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
       <a href="mailto:your@email.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
